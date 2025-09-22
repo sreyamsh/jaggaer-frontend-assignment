@@ -6,7 +6,7 @@ import {
 } from '@apollo/client-integration-nextjs';
 
 const httpLink = new HttpLink({
-  uri: process.env.GRAPHQL_ENDPOINT || 'http://127.0.0.1:3000/graphql',
+  uri: process.env.GRAPHQL_ENDPOINT || '/api/graphql',
   credentials: 'same-origin',
 });
 

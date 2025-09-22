@@ -1,11 +1,11 @@
 {
-  "name": "frontend",
+  "name": "jaggaer-ecommerce-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 8080",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 8080",
+    "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "type-check": "tsc --noEmit",
@@ -16,6 +16,8 @@
     "@apollo/client": "^4.0.5",
     "@apollo/client-integration-nextjs": "^0.13.1",
     "@apollo/experimental-nextjs-app-support": "^0.13.1",
+    "@apollo/server": "^5.0.0",
+    "@as-integrations/next": "^4.0.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.2",
@@ -24,7 +26,8 @@
     "graphql": "^16.11.0",
     "next": "15.5.3",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
