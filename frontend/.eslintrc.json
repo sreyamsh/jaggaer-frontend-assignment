@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "@typescript-eslint/recommended",
+    "@typescript-eslint/recommended-requiring-type-checking",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "react-hooks"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/explicit-function-return-type": "warn",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/prefer-nullish-coalescing": "error",
+    "@typescript-eslint/prefer-optional-chain": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "prefer-const": "error",
+    "no-console": "warn",
+    "no-debugger": "error"
+  },
+  "ignorePatterns": ["src/generated/**/*", "*.config.js", "next.config.js"]
+}

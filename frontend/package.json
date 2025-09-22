@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@apollo/client": "^4.0.5",
+    "@apollo/client-integration-nextjs": "^0.13.1",
+    "@apollo/experimental-nextjs-app-support": "^0.13.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
+    "clsx": "^2.1.1",
+    "graphql": "^16.11.0",
+    "next": "15.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5"
+  }
+}

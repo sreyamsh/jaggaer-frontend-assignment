@@ -1,0 +1,14 @@
+@media (max-width: 800px) {
+  html {
+    font-size: 14px;
+  }
+  .skeleton-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skeleton-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
